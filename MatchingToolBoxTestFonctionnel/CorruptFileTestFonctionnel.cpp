@@ -1,6 +1,6 @@
 #include "GtestEnvironment.h"
 
-TEST(CorruptFile_SystemTest, CorruptFile_csv_xml) {
+/*TEST(CorruptFile_SystemTest, CorruptFile_csv_xml) {
 
 	string expected_file = (string)_shared_path_CDP + "expected_files" + _p + "expected_target_character_ref_character_cdp_char_csv.txt";
 	string result_path = (string)_shared_path_CDP + "resultat_target_character_ref_character_cdp_char_csv";
@@ -27,4 +27,4 @@ TEST(CorruptFile_SystemTest, CorruptFile_csv_xml) {
 	Readfile r(expected_file, result_file);
 
 	ASSERT_EQ(r.compareFile(), true);
-}
+}*/

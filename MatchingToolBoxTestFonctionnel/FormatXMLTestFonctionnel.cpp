@@ -1,6 +1,6 @@
 #include "GtestEnvironment.h"
 
-TEST(XMLFormat_SystemTest, XMLFormat_testKey_idS_string_char) {
+/*TEST(XMLFormat_SystemTest, XMLFormat_testKey_idS_string_char) {
 
 	string expected_file = (string)_shared_path_FORMAT_XML + "expected_files" + _p + "expected_target_character_ref_character_lvn_char_xml.txt";
 	string result_path = (string)_shared_path_FORMAT_XML + "resultat_target_character_ref_character_lvn_char_xml_ids";
@@ -214,4 +214,4 @@ TEST(XMLFormat_SystemTest, XMLFormat_testKey_id_targetOnly_string_vec) {
 	Readfile r(expected_file, result_file);
 
 	ASSERT_EQ(r.compareFile(), true);
-}
+}*/

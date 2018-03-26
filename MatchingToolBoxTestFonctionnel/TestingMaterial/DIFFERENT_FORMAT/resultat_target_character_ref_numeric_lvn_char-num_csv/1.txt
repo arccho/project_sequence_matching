@@ -1,0 +1,9 @@
+Result 
+Distance = 6
+Correspondance 
+
+c h i e n s 
++ o o o o o 
+  1 2 8 6 8 
+
+

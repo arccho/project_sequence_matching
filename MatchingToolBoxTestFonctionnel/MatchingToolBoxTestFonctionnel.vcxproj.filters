@@ -48,7 +48,7 @@
     <ClCompile Include="FormatXMLTestFonctionnel.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="DifferentFormatTestFonctionnel.cpp">
+    <ClCompile Include="DifferentTypeTestFonctionnel.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
