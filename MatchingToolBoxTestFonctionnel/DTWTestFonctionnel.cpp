@@ -1,6 +1,6 @@
 #include "DTWTestFonctionnel.h"
 
-TEST_F(DTW_SystemTest, DTW_character_csv) {
+/*TEST_F(DTW_SystemTest, DTW_character_csv) {
 
 	string expected_file = (string)_shared_path_DTW + "expected_files" + _p + "expected_target_character_ref_character_dtw_char_csv.txt";
 	string result_path = (string)_shared_path_DTW + "resultat_target_character_ref_character_dtw_char_csv";
@@ -256,4 +256,4 @@ TEST_F(DTW_SystemTest, DTW_vector_xml) {
 	Readfile r(expected_file, result_file);
 
 	ASSERT_EQ(r.compareFile(), true);
-}
+}*/

@@ -1,6 +1,6 @@
 #include "ESCTestFonctionnel.h"
 
-TEST_F(ESC_SystemTest, ESC_character_csv) {
+/*TEST_F(ESC_SystemTest, ESC_character_csv) {
 
 	string expected_file = (string)_shared_path_ESC + "expected_files" + _p + "expected_target_character_ref_character_esc_char_csv.txt";
 	string result_path = (string)_shared_path_ESC + "resultat_target_character_ref_character_esc_char_csv";
@@ -241,4 +241,4 @@ TEST_F(ESC_SystemTest, ESC_vector_xml) {
 	ASSERT_NO_THROW(c.run());
 	Readfile r(expected_file, result_file);
 	ASSERT_EQ(r.compareFile(), true);
-}
+}*/

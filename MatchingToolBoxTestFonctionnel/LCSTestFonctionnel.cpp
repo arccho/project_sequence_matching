@@ -1,6 +1,6 @@
 #include "LCSTestFonctionnel.h"
 
-TEST_F(LCS_SystemTest, LCS_character_csv) {
+/*TEST_F(LCS_SystemTest, LCS_character_csv) {
 
 	string expected_file = (string)_shared_path_LCS + "expected_files" + _p + "expected_target_character_ref_character_lcs_char_csv.txt";
 	string result_path = (string)_shared_path_LCS + "resultat_target_character_ref_character_lcs_char_csv";
@@ -258,4 +258,4 @@ TEST_F(LCS_SystemTest, LCS_vector_xml) {
 	Readfile r(expected_file, result_file);
 
 	ASSERT_EQ(r.compareFile(), true);
-}
+}*/

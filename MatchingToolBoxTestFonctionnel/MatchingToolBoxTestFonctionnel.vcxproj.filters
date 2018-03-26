@@ -42,6 +42,15 @@
     <ClCompile Include="DTWTestFonctionnel.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="CorruptFileTestFonctionnel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FormatXMLTestFonctionnel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DifferentFormatTestFonctionnel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Readfile.h">

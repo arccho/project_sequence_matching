@@ -155,6 +155,8 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="CDPTestFonctionnel.cpp" />
+    <ClCompile Include="CorruptFileTestFonctionnel.cpp" />
+    <ClCompile Include="DifferentFormatTestFonctionnel.cpp" />
     <ClCompile Include="DTWTestFonctionnel.cpp" />
     <ClCompile Include="ESCTestFonctionnel.cpp" />
     <ClCompile Include="FSMTestFonctionnel.cpp" />
@@ -163,6 +165,7 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="MVMTestFonctionnel.cpp" />
     <ClCompile Include="Readfile.cpp" />
+    <ClCompile Include="FormatXMLTestFonctionnel.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\MatchingLibrary\MatchingLibrary.vcxproj">
