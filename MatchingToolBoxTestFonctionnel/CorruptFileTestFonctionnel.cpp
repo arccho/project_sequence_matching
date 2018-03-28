@@ -22,7 +22,7 @@
 		&result_path[0u] };
 
 	commandline::CommandLineApplication c = commandline::CommandLineApplication(12, args);
-	ASSERT_NO_THROW(c.run());
+	ASSERT_THROW(c.run(), exc::);
 
 	Readfile r(expected_file, result_file);
 

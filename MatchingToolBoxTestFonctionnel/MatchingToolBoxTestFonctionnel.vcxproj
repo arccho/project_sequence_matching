@@ -156,7 +156,7 @@
   <ItemGroup>
     <ClCompile Include="CDPTestFonctionnel.cpp" />
     <ClCompile Include="CorruptFileTestFonctionnel.cpp" />
-    <ClCompile Include="DifferentTypeTestFonctionnel.cpp" />
+    <ClCompile Include="DifferentTypeFormatTestFonctionnel.cpp" />
     <ClCompile Include="DTWTestFonctionnel.cpp" />
     <ClCompile Include="ESCTestFonctionnel.cpp" />
     <ClCompile Include="FSMTestFonctionnel.cpp" />

@@ -15,7 +15,7 @@
 	#define _shared_path_LEVENSHTEIN "..\\MatchingToolBoxTestFonctionnel\\TestingMaterial\\LEVENSHTEIN\\"
 	#define _shared_path_MVM "..\\MatchingToolBoxTestFonctionnel\\TestingMaterial\\MVM\\"
 
-	#define _shared_path_DIFF_FORMAT "..\\MatchingToolBoxTestFonctionnel\\TestingMaterial\\DIFFERENT_FORMAT\\"
+	#define _shared_path_DIFF_TYPE_FORMAT "..\\MatchingToolBoxTestFonctionnel\\TestingMaterial\\DIFFERENT_TYPE_FORMAT\\"
 	#define _shared_path_FORMAT_XML "..\\MatchingToolBoxTestFonctionnel\\TestingMaterial\\FORMAT_XML\\"
 	#define _shared_path_CORRUPT_FILE "..\\MatchingToolBoxTestFonctionnel\\TestingMaterial\\CORRUPT_FILE\\"
 
@@ -31,7 +31,7 @@
 	#define _shared_path_LEVENSHTEIN "../../../VS2015/MatchingToolBox/MatchingToolBoxTestFonctionnel/TestingMaterial/LEVENSHTEIN/"
 	#define _shared_path_MVM "../../../VS2015/MatchingToolBox/MatchingToolBoxTestFonctionnel/TestingMaterial/MVM/"
 
-	#define _shared_path_DIFF_FORMAT "../../../VS2015/MatchingToolBox/MatchingToolBoxTestFonctionnel/TestingMaterial/DIFFERENT_FORMAT/"
+	#define _shared_path_DIFF_TYPE_FORMAT "../../../VS2015/MatchingToolBox/MatchingToolBoxTestFonctionnel/TestingMaterial/DIFFERENT_TYPE_FORMAT/"
 	#define _shared_path_FORMAT_XML "../../../VS2015/MatchingToolBox/MatchingToolBoxTestFonctionnel/TestingMaterial/FORMAT_XML/"
 	#define _shared_path_CORRUPT_FILE "../../../VS2015/MatchingToolBox/MatchingToolBoxTestFonctionnel/TestingMaterial/CORRUPT_FILE/"
 

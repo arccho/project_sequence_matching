@@ -1,9 +1,0 @@
-Result 
-Distance = 8
-Correspondance 
-
-      1     2     9     3     3     5           9     
--     o     o     o     o     o     =     -     o     
-0.1   0.84  5.5   1.127 4.68  12.6  5     2.5   3.77  
-
-
