@@ -160,7 +160,7 @@ TEST(DifferentTypeFormat_SystemTest, DifferentType_vec_num) {
 
 	commandline::CommandLineApplication c = commandline::CommandLineApplication(12, args);
 	ASSERT_THROW(c.run(), exc::SequenceMatchingException);
-}*/
+}
 
 TEST(DifferentTypeFormat_SystemTest, DifferentFormat_csv_ext) {
 
@@ -276,4 +276,4 @@ TEST(DifferentTypeFormat_SystemTest, DifferentFormat_ext_xml) {
 
 	commandline::CommandLineApplication c = commandline::CommandLineApplication(12, args);
 	ASSERT_THROW(c.run(), exc::SequenceMatchingException);
-}
+}*/
