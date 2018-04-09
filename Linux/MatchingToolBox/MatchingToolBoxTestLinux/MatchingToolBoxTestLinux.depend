@@ -1,0 +1,648 @@
+# depslib dependency file v1.0
+1515190806 source:/home/arccho/Bureau/DI4/PROJET_DI4_S1/VS2015/MatchingToolBox/MatchingLibrary/CDPCorrespondence.cpp
+	"CDPCorrespondence.h"
+
+1515190798 /home/arccho/Bureau/DI4/PROJET_DI4_S1/VS2015/MatchingToolBox/MatchingLibrary/CDPCorrespondence.h
+	"Correspondence.h"
+	<algorithm>
+	<cstdlib>
+
+1515193414 /home/arccho/Bureau/DI4/PROJET_DI4_S1/VS2015/MatchingToolBox/MatchingLibrary/Correspondence.h
+	"Parameters.h"
+	"Model.h"
+	"SequenceMatchingException.h"
+	<vector>
+	<typeinfo>
+	<cfloat>
+	<climits>
+	<cmath>
+	<algorithm>
+
+1515079400 /home/arccho/Bureau/DI4/PROJET_DI4_S1/VS2015/MatchingToolBox/MatchingLibrary/Parameters.h
+	"Model.h"
+	"SequenceMatchingException.h"
+	<vector>
+	<map>
+	<algorithm>
+
+1484060612 /home/arccho/Bureau/DI4/PROJET_DI4_S1/VS2015/MatchingToolBox/MatchingLibrary/Model.h
+	"Element.h"
+	"Sequence.h"
+	"Numeric.h"
+	"Character.h"
+	"CharacteristicVector.h"
+
+1481285890 /home/arccho/Bureau/DI4/PROJET_DI4_S1/VS2015/MatchingToolBox/MatchingLibrary/Element.h
+	<string>
+
+1482972490 /home/arccho/Bureau/DI4/PROJET_DI4_S1/VS2015/MatchingToolBox/MatchingLibrary/Sequence.h
+	"Element.h"
+	"SequenceMatchingException.h"
+	<typeinfo>
+	<vector>
+
+1511968012 /home/arccho/Bureau/DI4/PROJET_DI4_S1/VS2015/MatchingToolBox/MatchingLibrary/SequenceMatchingException.h
+	<iostream>
+	<sstream>
+	<exception>
+
+1515186758 /home/arccho/Bureau/DI4/PROJET_DI4_S1/VS2015/MatchingToolBox/MatchingLibrary/Numeric.h
+	<typeinfo>
+	"Element.h"
+	"math.h"
+	"SequenceMatchingException.h"
+
+1515186850 /home/arccho/Bureau/DI4/PROJET_DI4_S1/VS2015/MatchingToolBox/MatchingLibrary/Character.h
+	"Element.h"
+	"SequenceMatchingException.h"
+	<typeinfo>
+
+1484057160 /home/arccho/Bureau/DI4/PROJET_DI4_S1/VS2015/MatchingToolBox/MatchingLibrary/CharacteristicVector.h
+	"Element.h"
+	"SequenceMatchingException.h"
+	<typeinfo>
+	<math.h>
+	<vector>
+
+1481310600 source:/home/arccho/Bureau/DI4/PROJET_DI4_S1/VS2015/MatchingToolBox/MatchingLibrary/Character.cpp
+	"Character.h"
+
+1481310668 source:/home/arccho/Bureau/DI4/PROJET_DI4_S1/VS2015/MatchingToolBox/MatchingLibrary/CharacteristicVector.cpp
+	"CharacteristicVector.h"
+
+1515185670 source:/home/arccho/Bureau/DI4/PROJET_DI4_S1/VS2015/MatchingToolBox/MatchingLibrary/CommandLine.cpp
+	"CommandLine.h"
+
+1515191294 /home/arccho/Bureau/DI4/PROJET_DI4_S1/VS2015/MatchingToolBox/MatchingLibrary/CommandLine.h
+	<iostream>
+	<algorithm>
+	<vector>
+	<map>
+
+1515187772 source:/home/arccho/Bureau/DI4/PROJET_DI4_S1/VS2015/MatchingToolBox/MatchingLibrary/CommandLineApplication.cpp
+	"CommandLineApplication.h"
+	<algorithm>
+	<string>
+
+1512642794 /home/arccho/Bureau/DI4/PROJET_DI4_S1/VS2015/MatchingToolBox/MatchingLibrary/CommandLineApplication.h
+	"CommandLine.h"
+	"Support.h"
+	"InOut.h"
+	<cstring>
+	<cstdlib>
+	<cfloat>
+	<string.h>
+	<stdio.h>
+	<omp.h>
+	<sys/stat.h>
+	<direct.h>
+
+1481315158 /home/arccho/Bureau/DI4/PROJET_DI4_S1/VS2015/MatchingToolBox/MatchingLibrary/Support.h
+	"LevenstheinCorrespondence.h"
+	"LCSCorrespondence.h"
+	"DTWCorrespondence.h"
+	"MVMCorrespondence.h"
+	"CDPCorrespondence.h"
+	"FSMCorrespondence.h"
+	"ESCCorrespondence.h"
+
+1515189410 /home/arccho/Bureau/DI4/PROJET_DI4_S1/VS2015/MatchingToolBox/MatchingLibrary/LevenstheinCorrespondence.h
+	"Correspondence.h"
+	<math.h>
+	<cstdlib>
+
+1515189346 /home/arccho/Bureau/DI4/PROJET_DI4_S1/VS2015/MatchingToolBox/MatchingLibrary/LCSCorrespondence.h
+	"Correspondence.h"
+	<cstring>
+	<cstdlib>
+
+1515189480 /home/arccho/Bureau/DI4/PROJET_DI4_S1/VS2015/MatchingToolBox/MatchingLibrary/DTWCorrespondence.h
+	"Correspondence.h"
+	<math.h>
+	<cstring>
+	<cstdlib>
+
+1515189766 /home/arccho/Bureau/DI4/PROJET_DI4_S1/VS2015/MatchingToolBox/MatchingLibrary/MVMCorrespondence.h
+	"Correspondence.h"
+	<cstdlib>
+
+1515189782 /home/arccho/Bureau/DI4/PROJET_DI4_S1/VS2015/MatchingToolBox/MatchingLibrary/FSMCorrespondence.h
+	"Correspondence.h"
+	<climits>
+	<cstdlib>
+
+1515189776 /home/arccho/Bureau/DI4/PROJET_DI4_S1/VS2015/MatchingToolBox/MatchingLibrary/ESCCorrespondence.h
+	"Correspondence.h"
+	<climits>
+	<cstdlib>
+
+1483486260 /home/arccho/Bureau/DI4/PROJET_DI4_S1/VS2015/MatchingToolBox/MatchingLibrary/InOut.h
+	"SequenceParser.h"
+	"XMLParser.h"
+	"CSVParser.h"
+	"EXTParser.h"
+	"ParamParser.h"
+
+1513259216 /home/arccho/Bureau/DI4/PROJET_DI4_S1/VS2015/MatchingToolBox/MatchingLibrary/SequenceParser.h
+	"SequenceMatchingException.h"
+	<iostream>
+	<algorithm>
+	<sstream>
+	"regex.h"
+	"rapidxml-1.13/rapidxml_print.hpp"
+	"rapidxml-1.13/rapidxml_utils.hpp"
+	<uuid/uuid.h>
+
+1441700284 /home/arccho/Bureau/DI4/PROJET_DI4_S1/VS2015/MatchingToolBox/MatchingLibrary/rapidxml-1.13/rapidxml_print.hpp
+	"rapidxml.hpp"
+	<ostream>
+	<iterator>
+
+1441700284 /home/arccho/Bureau/DI4/PROJET_DI4_S1/VS2015/MatchingToolBox/MatchingLibrary/rapidxml-1.13/rapidxml.hpp
+	<cstdlib>
+	<cassert>
+	<new>
+	<exception>
+
+1441700284 /home/arccho/Bureau/DI4/PROJET_DI4_S1/VS2015/MatchingToolBox/MatchingLibrary/rapidxml-1.13/rapidxml_utils.hpp
+	"rapidxml.hpp"
+	<vector>
+	<string>
+	<fstream>
+	<stdexcept>
+
+1515186718 /home/arccho/Bureau/DI4/PROJET_DI4_S1/VS2015/MatchingToolBox/MatchingLibrary/XMLParser.h
+	"SequenceParser.h"
+	"Model.h"
+
+1515186824 /home/arccho/Bureau/DI4/PROJET_DI4_S1/VS2015/MatchingToolBox/MatchingLibrary/CSVParser.h
+	"SequenceParser.h"
+	<string>
+
+1515186810 /home/arccho/Bureau/DI4/PROJET_DI4_S1/VS2015/MatchingToolBox/MatchingLibrary/EXTParser.h
+	"SequenceParser.h"
+	<string>
+
+1483062088 /home/arccho/Bureau/DI4/PROJET_DI4_S1/VS2015/MatchingToolBox/MatchingLibrary/ParamParser.h
+	"SequenceParser.h"
+	"Model.h"
+	"CorrespondenceTools.h"
+	"SequenceMatchingException.h"
+	<typeinfo>
+	"rapidxml-1.13/rapidxml_utils.hpp"
+	"rapidxml-1.13/rapidxml_print.hpp"
+
+1482466400 /home/arccho/Bureau/DI4/PROJET_DI4_S1/VS2015/MatchingToolBox/MatchingLibrary/CorrespondenceTools.h
+	"Correspondence.h"
+	"Parameters.h"
+	"MatchingExecutor.h"
+
+1515186896 /home/arccho/Bureau/DI4/PROJET_DI4_S1/VS2015/MatchingToolBox/MatchingLibrary/MatchingExecutor.h
+	"Correspondence.h"
+	"Parameters.h"
+	"InOut.h"
+	"Support.h"
+	<string>
+	<omp.h>
+	<typeinfo>
+	<sys/stat.h>
+	<direct.h>
+
+1514123286 source:/home/arccho/Bureau/DI4/PROJET_DI4_S1/VS2015/MatchingToolBox/MatchingLibrary/Correspondence.cpp
+	"Correspondence.h"
+
+1513104120 source:/home/arccho/Bureau/DI4/PROJET_DI4_S1/VS2015/MatchingToolBox/MatchingLibrary/CSVParser.cpp
+	"CSVParser.h"
+	"XMLParser.h"
+
+1515189976 source:/home/arccho/Bureau/DI4/PROJET_DI4_S1/VS2015/MatchingToolBox/MatchingLibrary/DTWCorrespondence.cpp
+	"DTWCorrespondence.h"
+
+1515083730 source:/home/arccho/Bureau/DI4/PROJET_DI4_S1/VS2015/MatchingToolBox/MatchingLibrary/ESCCorrespondence.cpp
+	"ESCCorrespondence.h"
+
+1513207854 source:/home/arccho/Bureau/DI4/PROJET_DI4_S1/VS2015/MatchingToolBox/MatchingLibrary/EXTParser.cpp
+	"EXTParser.h"
+	"XMLParser.h"
+
+1515191342 source:/home/arccho/Bureau/DI4/PROJET_DI4_S1/VS2015/MatchingToolBox/MatchingLibrary/FSMCorrespondance.cpp
+	"FSMCorrespondence.h"
+
+1515191872 source:/home/arccho/Bureau/DI4/PROJET_DI4_S1/VS2015/MatchingToolBox/MatchingLibrary/LCSCorrespondence.cpp
+	"LCSCorrespondence.h"
+
+1515191826 source:/home/arccho/Bureau/DI4/PROJET_DI4_S1/VS2015/MatchingToolBox/MatchingLibrary/LevenstheinCorrespondence.cpp
+	"LevenstheinCorrespondence.h"
+
+1515249084 source:/home/arccho/Bureau/DI4/PROJET_DI4_S1/VS2015/MatchingToolBox/MatchingLibrary/MatchingExecutor.cpp
+	"MatchingExecutor.h"
+
+1515190038 source:/home/arccho/Bureau/DI4/PROJET_DI4_S1/VS2015/MatchingToolBox/MatchingLibrary/MVMCorrespondence.cpp
+	"MVMCorrespondence.h"
+
+1482969904 source:/home/arccho/Bureau/DI4/PROJET_DI4_S1/VS2015/MatchingToolBox/MatchingLibrary/Numeric.cpp
+	"Numeric.h"
+
+1515081310 source:/home/arccho/Bureau/DI4/PROJET_DI4_S1/VS2015/MatchingToolBox/MatchingLibrary/Parameters.cpp
+	"Parameters.h"
+
+1515068860 source:/home/arccho/Bureau/DI4/PROJET_DI4_S1/VS2015/MatchingToolBox/MatchingLibrary/ParamParser.cpp
+	"ParamParser.h"
+
+1513274324 source:/home/arccho/Bureau/DI4/PROJET_DI4_S1/VS2015/MatchingToolBox/MatchingLibrary/Sequence.cpp
+	"Sequence.h"
+
+1483489306 source:/home/arccho/Bureau/DI4/PROJET_DI4_S1/VS2015/MatchingToolBox/MatchingLibrary/SequenceParser.cpp
+	"SequenceParser.h"
+	"uuid/uuid.h"
+	"uuid/uuid.h"
+
+1513256310 source:/home/arccho/Bureau/DI4/PROJET_DI4_S1/VS2015/MatchingToolBox/MatchingLibrary/XMLParser.cpp
+	"XMLParser.h"
+
+1515283110 source:/home/arccho/Bureau/DI4/PROJET_DI4_S1/VS2015/MatchingToolBox/MatchingToolBoxTest/CharacteristicVectorTest.cpp
+	"CharacteristicVector.h"
+	"gtest\gtest.h"
+	"../MatchingLibrary/CharacteristicVector.h"
+	"gtest/gtest.h"
+
+1515283169 source:/home/arccho/Bureau/DI4/PROJET_DI4_S1/VS2015/MatchingToolBox/MatchingToolBoxTest/CharacterTest.cpp
+	"Character.h"
+	"gtest\gtest.h"
+	"../MatchingLibrary/Character.h"
+	"gtest/gtest.h"
+
+1515283296 source:/home/arccho/Bureau/DI4/PROJET_DI4_S1/VS2015/MatchingToolBox/MatchingToolBoxTest/CSVParserTest.cpp
+	"CSVParser.h"
+	"XMLParser.h"
+	"gtest\gtest.h"
+	"../MatchingLibrary/CSVParser.h"
+	"../MatchingLibrary/XMLParser.h"
+	"gtest/gtest.h"
+
+1515283355 source:/home/arccho/Bureau/DI4/PROJET_DI4_S1/VS2015/MatchingToolBox/MatchingToolBoxTest/main.cpp
+	<iostream>
+	"gtest\gtest.h"
+	"vld.h"
+	"gtest/gtest.h"
+
+1515283479 source:/home/arccho/Bureau/DI4/PROJET_DI4_S1/VS2015/MatchingToolBox/MatchingToolBoxTest/MatchingExecutionTest.cpp
+	"MatchingExecutor.h"
+	"Support.h"
+	"gtest\gtest.h"
+	"../MatchingLibrary/MatchingExecutor.h"
+	"../MatchingLibrary/Support.h"
+	"gtest/gtest.h"
+
+1515283533 source:/home/arccho/Bureau/DI4/PROJET_DI4_S1/VS2015/MatchingToolBox/MatchingToolBoxTest/NumericTest.cpp
+	"Numeric.h"
+	"gtest\gtest.h"
+	"../MatchingLibrary/Numeric.h"
+	"gtest/gtest.h"
+
+1515283568 source:/home/arccho/Bureau/DI4/PROJET_DI4_S1/VS2015/MatchingToolBox/MatchingToolBoxTest/ParametersTest.cpp
+	"Parameters.h"
+	"gtest\gtest.h"
+	"../MatchingLibrary/Parameters.h"
+	"gtest/gtest.h"
+
+1515283606 source:/home/arccho/Bureau/DI4/PROJET_DI4_S1/VS2015/MatchingToolBox/MatchingToolBoxTest/ParamParserTest.cpp
+	"ParamParser.h"
+	"gtest\gtest.h"
+	"../MatchingLibrary/ParamParser.h"
+	"gtest/gtest.h"
+
+1515283672 source:/home/arccho/Bureau/DI4/PROJET_DI4_S1/VS2015/MatchingToolBox/MatchingToolBoxTest/SequenceTest.cpp
+	"Sequence.h"
+	"Numeric.h"
+	"Character.h"
+	"gtest\gtest.h"
+	"../MatchingLibrary/Sequence.h"
+	"../MatchingLibrary/Numeric.h"
+	"../MatchingLibrary/Character.h"
+	"gtest/gtest.h"
+
+1515283709 source:/home/arccho/Bureau/DI4/PROJET_DI4_S1/VS2015/MatchingToolBox/MatchingToolBoxTest/XMLParserTest.cpp
+	"XMLParser.h"
+	"gtest\gtest.h"
+	"../MatchingLibrary/XMLParser.h"
+	"gtest/gtest.h"
+
+1515190806 source:/home/arccho/Bureau/DI4/PROJET_DI4_S1_V2/VS2015/MatchingToolBox/MatchingLibrary/CDPCorrespondence.cpp
+	"CDPCorrespondence.h"
+
+1515190798 /home/arccho/Bureau/DI4/PROJET_DI4_S1_V2/VS2015/MatchingToolBox/MatchingLibrary/CDPCorrespondence.h
+	"Correspondence.h"
+	<algorithm>
+	<cstdlib>
+
+1515193414 /home/arccho/Bureau/DI4/PROJET_DI4_S1_V2/VS2015/MatchingToolBox/MatchingLibrary/Correspondence.h
+	"Parameters.h"
+	"Model.h"
+	"SequenceMatchingException.h"
+	<vector>
+	<typeinfo>
+	<cfloat>
+	<climits>
+	<cmath>
+	<algorithm>
+
+1515079400 /home/arccho/Bureau/DI4/PROJET_DI4_S1_V2/VS2015/MatchingToolBox/MatchingLibrary/Parameters.h
+	"Model.h"
+	"SequenceMatchingException.h"
+	<vector>
+	<map>
+	<algorithm>
+
+1484060612 /home/arccho/Bureau/DI4/PROJET_DI4_S1_V2/VS2015/MatchingToolBox/MatchingLibrary/Model.h
+	"Element.h"
+	"Sequence.h"
+	"Numeric.h"
+	"Character.h"
+	"CharacteristicVector.h"
+
+1481285890 /home/arccho/Bureau/DI4/PROJET_DI4_S1_V2/VS2015/MatchingToolBox/MatchingLibrary/Element.h
+	<string>
+
+1482972490 /home/arccho/Bureau/DI4/PROJET_DI4_S1_V2/VS2015/MatchingToolBox/MatchingLibrary/Sequence.h
+	"Element.h"
+	"SequenceMatchingException.h"
+	<typeinfo>
+	<vector>
+
+1515357924 /home/arccho/Bureau/DI4/PROJET_DI4_S1_V2/VS2015/MatchingToolBox/MatchingLibrary/SequenceMatchingException.h
+	<iostream>
+	<sstream>
+	<exception>
+
+1515186758 /home/arccho/Bureau/DI4/PROJET_DI4_S1_V2/VS2015/MatchingToolBox/MatchingLibrary/Numeric.h
+	<typeinfo>
+	"Element.h"
+	"math.h"
+	"SequenceMatchingException.h"
+
+1515186850 /home/arccho/Bureau/DI4/PROJET_DI4_S1_V2/VS2015/MatchingToolBox/MatchingLibrary/Character.h
+	"Element.h"
+	"SequenceMatchingException.h"
+	<typeinfo>
+
+1484057160 /home/arccho/Bureau/DI4/PROJET_DI4_S1_V2/VS2015/MatchingToolBox/MatchingLibrary/CharacteristicVector.h
+	"Element.h"
+	"SequenceMatchingException.h"
+	<typeinfo>
+	<math.h>
+	<vector>
+
+1481310600 source:/home/arccho/Bureau/DI4/PROJET_DI4_S1_V2/VS2015/MatchingToolBox/MatchingLibrary/Character.cpp
+	"Character.h"
+
+1481310668 source:/home/arccho/Bureau/DI4/PROJET_DI4_S1_V2/VS2015/MatchingToolBox/MatchingLibrary/CharacteristicVector.cpp
+	"CharacteristicVector.h"
+
+1515185670 source:/home/arccho/Bureau/DI4/PROJET_DI4_S1_V2/VS2015/MatchingToolBox/MatchingLibrary/CommandLine.cpp
+	"CommandLine.h"
+
+1515191294 /home/arccho/Bureau/DI4/PROJET_DI4_S1_V2/VS2015/MatchingToolBox/MatchingLibrary/CommandLine.h
+	<iostream>
+	<algorithm>
+	<vector>
+	<map>
+
+1515187772 source:/home/arccho/Bureau/DI4/PROJET_DI4_S1_V2/VS2015/MatchingToolBox/MatchingLibrary/CommandLineApplication.cpp
+	"CommandLineApplication.h"
+	<algorithm>
+	<string>
+
+1512642794 /home/arccho/Bureau/DI4/PROJET_DI4_S1_V2/VS2015/MatchingToolBox/MatchingLibrary/CommandLineApplication.h
+	"CommandLine.h"
+	"Support.h"
+	"InOut.h"
+	<cstring>
+	<cstdlib>
+	<cfloat>
+	<string.h>
+	<stdio.h>
+	<omp.h>
+	<sys/stat.h>
+	<direct.h>
+
+1481315158 /home/arccho/Bureau/DI4/PROJET_DI4_S1_V2/VS2015/MatchingToolBox/MatchingLibrary/Support.h
+	"LevenstheinCorrespondence.h"
+	"LCSCorrespondence.h"
+	"DTWCorrespondence.h"
+	"MVMCorrespondence.h"
+	"CDPCorrespondence.h"
+	"FSMCorrespondence.h"
+	"ESCCorrespondence.h"
+
+1515189410 /home/arccho/Bureau/DI4/PROJET_DI4_S1_V2/VS2015/MatchingToolBox/MatchingLibrary/LevenstheinCorrespondence.h
+	"Correspondence.h"
+	<math.h>
+	<cstdlib>
+
+1515189346 /home/arccho/Bureau/DI4/PROJET_DI4_S1_V2/VS2015/MatchingToolBox/MatchingLibrary/LCSCorrespondence.h
+	"Correspondence.h"
+	<cstring>
+	<cstdlib>
+
+1515189480 /home/arccho/Bureau/DI4/PROJET_DI4_S1_V2/VS2015/MatchingToolBox/MatchingLibrary/DTWCorrespondence.h
+	"Correspondence.h"
+	<math.h>
+	<cstring>
+	<cstdlib>
+
+1515189766 /home/arccho/Bureau/DI4/PROJET_DI4_S1_V2/VS2015/MatchingToolBox/MatchingLibrary/MVMCorrespondence.h
+	"Correspondence.h"
+	<cstdlib>
+
+1515189782 /home/arccho/Bureau/DI4/PROJET_DI4_S1_V2/VS2015/MatchingToolBox/MatchingLibrary/FSMCorrespondence.h
+	"Correspondence.h"
+	<climits>
+	<cstdlib>
+
+1515189776 /home/arccho/Bureau/DI4/PROJET_DI4_S1_V2/VS2015/MatchingToolBox/MatchingLibrary/ESCCorrespondence.h
+	"Correspondence.h"
+	<climits>
+	<cstdlib>
+
+1483486260 /home/arccho/Bureau/DI4/PROJET_DI4_S1_V2/VS2015/MatchingToolBox/MatchingLibrary/InOut.h
+	"SequenceParser.h"
+	"XMLParser.h"
+	"CSVParser.h"
+	"EXTParser.h"
+	"ParamParser.h"
+
+1513259216 /home/arccho/Bureau/DI4/PROJET_DI4_S1_V2/VS2015/MatchingToolBox/MatchingLibrary/SequenceParser.h
+	"SequenceMatchingException.h"
+	<iostream>
+	<algorithm>
+	<sstream>
+	"regex.h"
+	"rapidxml-1.13/rapidxml_print.hpp"
+	"rapidxml-1.13/rapidxml_utils.hpp"
+	<uuid/uuid.h>
+
+1441693084 /home/arccho/Bureau/DI4/PROJET_DI4_S1_V2/VS2015/MatchingToolBox/MatchingLibrary/rapidxml-1.13/rapidxml_print.hpp
+	"rapidxml.hpp"
+	<ostream>
+	<iterator>
+
+1441693084 /home/arccho/Bureau/DI4/PROJET_DI4_S1_V2/VS2015/MatchingToolBox/MatchingLibrary/rapidxml-1.13/rapidxml.hpp
+	<cstdlib>
+	<cassert>
+	<new>
+	<exception>
+
+1441693084 /home/arccho/Bureau/DI4/PROJET_DI4_S1_V2/VS2015/MatchingToolBox/MatchingLibrary/rapidxml-1.13/rapidxml_utils.hpp
+	"rapidxml.hpp"
+	<vector>
+	<string>
+	<fstream>
+	<stdexcept>
+
+1515186718 /home/arccho/Bureau/DI4/PROJET_DI4_S1_V2/VS2015/MatchingToolBox/MatchingLibrary/XMLParser.h
+	"SequenceParser.h"
+	"Model.h"
+
+1515429302 /home/arccho/Bureau/DI4/PROJET_DI4_S1_V2/VS2015/MatchingToolBox/MatchingLibrary/CSVParser.h
+	"SequenceParser.h"
+	<string>
+
+1515186810 /home/arccho/Bureau/DI4/PROJET_DI4_S1_V2/VS2015/MatchingToolBox/MatchingLibrary/EXTParser.h
+	"SequenceParser.h"
+	<string>
+
+1483062088 /home/arccho/Bureau/DI4/PROJET_DI4_S1_V2/VS2015/MatchingToolBox/MatchingLibrary/ParamParser.h
+	"SequenceParser.h"
+	"Model.h"
+	"CorrespondenceTools.h"
+	"SequenceMatchingException.h"
+	<typeinfo>
+	"rapidxml-1.13/rapidxml_utils.hpp"
+	"rapidxml-1.13/rapidxml_print.hpp"
+
+1482466400 /home/arccho/Bureau/DI4/PROJET_DI4_S1_V2/VS2015/MatchingToolBox/MatchingLibrary/CorrespondenceTools.h
+	"Correspondence.h"
+	"Parameters.h"
+	"MatchingExecutor.h"
+
+1515357712 /home/arccho/Bureau/DI4/PROJET_DI4_S1_V2/VS2015/MatchingToolBox/MatchingLibrary/MatchingExecutor.h
+	"Correspondence.h"
+	"Parameters.h"
+	"InOut.h"
+	"Support.h"
+	<string>
+	<omp.h>
+	<typeinfo>
+	<sys/stat.h>
+	<direct.h>
+
+1514123286 source:/home/arccho/Bureau/DI4/PROJET_DI4_S1_V2/VS2015/MatchingToolBox/MatchingLibrary/Correspondence.cpp
+	"Correspondence.h"
+
+1515189976 source:/home/arccho/Bureau/DI4/PROJET_DI4_S1_V2/VS2015/MatchingToolBox/MatchingLibrary/DTWCorrespondence.cpp
+	"DTWCorrespondence.h"
+
+1515083730 source:/home/arccho/Bureau/DI4/PROJET_DI4_S1_V2/VS2015/MatchingToolBox/MatchingLibrary/ESCCorrespondence.cpp
+	"ESCCorrespondence.h"
+
+1513207854 source:/home/arccho/Bureau/DI4/PROJET_DI4_S1_V2/VS2015/MatchingToolBox/MatchingLibrary/EXTParser.cpp
+	"EXTParser.h"
+	"XMLParser.h"
+
+1515191342 source:/home/arccho/Bureau/DI4/PROJET_DI4_S1_V2/VS2015/MatchingToolBox/MatchingLibrary/FSMCorrespondance.cpp
+	"FSMCorrespondence.h"
+
+1515191872 source:/home/arccho/Bureau/DI4/PROJET_DI4_S1_V2/VS2015/MatchingToolBox/MatchingLibrary/LCSCorrespondence.cpp
+	"LCSCorrespondence.h"
+
+1515191826 source:/home/arccho/Bureau/DI4/PROJET_DI4_S1_V2/VS2015/MatchingToolBox/MatchingLibrary/LevenstheinCorrespondence.cpp
+	"LevenstheinCorrespondence.h"
+
+1515249084 source:/home/arccho/Bureau/DI4/PROJET_DI4_S1_V2/VS2015/MatchingToolBox/MatchingLibrary/MatchingExecutor.cpp
+	"MatchingExecutor.h"
+
+1515190038 source:/home/arccho/Bureau/DI4/PROJET_DI4_S1_V2/VS2015/MatchingToolBox/MatchingLibrary/MVMCorrespondence.cpp
+	"MVMCorrespondence.h"
+
+1482969904 source:/home/arccho/Bureau/DI4/PROJET_DI4_S1_V2/VS2015/MatchingToolBox/MatchingLibrary/Numeric.cpp
+	"Numeric.h"
+
+1515081310 source:/home/arccho/Bureau/DI4/PROJET_DI4_S1_V2/VS2015/MatchingToolBox/MatchingLibrary/Parameters.cpp
+	"Parameters.h"
+
+1515068860 source:/home/arccho/Bureau/DI4/PROJET_DI4_S1_V2/VS2015/MatchingToolBox/MatchingLibrary/ParamParser.cpp
+	"ParamParser.h"
+
+1483489306 source:/home/arccho/Bureau/DI4/PROJET_DI4_S1_V2/VS2015/MatchingToolBox/MatchingLibrary/SequenceParser.cpp
+	"SequenceParser.h"
+	"uuid/uuid.h"
+	"uuid/uuid.h"
+
+1513256310 source:/home/arccho/Bureau/DI4/PROJET_DI4_S1_V2/VS2015/MatchingToolBox/MatchingLibrary/XMLParser.cpp
+	"XMLParser.h"
+
+1515515928 source:/home/arccho/Bureau/DI4/PROJET_DI4_S1_V2/VS2015/MatchingToolBox/MatchingToolBoxTest/NumericTest.cpp
+	"Numeric.h"
+	"gtest\gtest.h"
+	"gtest/gtest.h"
+
+1515515950 source:/home/arccho/Bureau/DI4/PROJET_DI4_S1_V2/VS2015/MatchingToolBox/MatchingToolBoxTest/ParametersTest.cpp
+	"Parameters.h"
+	"gtest\gtest.h"
+	"gtest/gtest.h"
+
+1515429298 source:/home/arccho/Bureau/DI4/PROJET_DI4_S1_V2/VS2015/MatchingToolBox/MatchingLibrary/CSVParser.cpp
+	"CSVParser.h"
+	"XMLParser.h"
+
+1515360360 source:/home/arccho/Bureau/DI4/PROJET_DI4_S1_V2/VS2015/MatchingToolBox/MatchingLibrary/Sequence.cpp
+	"Sequence.h"
+
+1515515656 source:/home/arccho/Bureau/DI4/PROJET_DI4_S1_V2/VS2015/MatchingToolBox/MatchingToolBoxTest/CharacteristicVectorTest.cpp
+	"CharacteristicVector.h"
+	"gtest\gtest.h"
+	"gtest/gtest.h"
+
+1515515680 source:/home/arccho/Bureau/DI4/PROJET_DI4_S1_V2/VS2015/MatchingToolBox/MatchingToolBoxTest/CharacterTest.cpp
+	"Character.h"
+	"gtest\gtest.h"
+	"gtest/gtest.h"
+
+1515515736 source:/home/arccho/Bureau/DI4/PROJET_DI4_S1_V2/VS2015/MatchingToolBox/MatchingToolBoxTest/CSVParserTest.cpp
+	"CSVParser.h"
+	"XMLParser.h"
+	"GtestEnvironment.h"
+
+1515500758 /home/arccho/Bureau/DI4/PROJET_DI4_S1_V2/VS2015/MatchingToolBox/MatchingToolBoxTest/GtestEnvironment.h
+	"gtest\gtest.h"
+	"gtest/gtest.h"
+
+1515515880 source:/home/arccho/Bureau/DI4/PROJET_DI4_S1_V2/VS2015/MatchingToolBox/MatchingToolBoxTest/main.cpp
+	<iostream>
+	"GtestEnvironment.h"
+	"vld.h"
+
+1515515900 source:/home/arccho/Bureau/DI4/PROJET_DI4_S1_V2/VS2015/MatchingToolBox/MatchingToolBoxTest/MatchingExecutionTest.cpp
+	"MatchingExecutor.h"
+	"Support.h"
+	"GtestEnvironment.h"
+
+1515515782 source:/home/arccho/Bureau/DI4/PROJET_DI4_S1_V2/VS2015/MatchingToolBox/MatchingToolBoxTest/GtestEnvironment.cpp
+	"GtestEnvironment.h"
+
+1515516286 source:/home/arccho/Bureau/DI4/PROJET_DI4_S1_V2/VS2015/MatchingToolBox/MatchingToolBoxTest/SequenceTest.cpp
+	"Sequence.h"
+	"Numeric.h"
+	"Character.h"
+	"gtest\gtest.h"
+	"gtest/gtest.h"
+
+1515515972 source:/home/arccho/Bureau/DI4/PROJET_DI4_S1_V2/VS2015/MatchingToolBox/MatchingToolBoxTest/ParamParserTest.cpp
+	"ParamParser.h"
+	"GtestEnvironment.h"
+
+1515516016 source:/home/arccho/Bureau/DI4/PROJET_DI4_S1_V2/VS2015/MatchingToolBox/MatchingToolBoxTest/XMLParserTest.cpp
+	"XMLParser.h"
+	"GtestEnvironment.h"
+
