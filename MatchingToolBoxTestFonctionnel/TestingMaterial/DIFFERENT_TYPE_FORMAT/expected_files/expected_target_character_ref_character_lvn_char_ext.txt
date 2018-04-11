@@ -1,6 +1,0 @@
-Result
-Distance=4
-Correspondance
-cela est le petit test
-==oo === oo ===== ====
-ceci est un petit test

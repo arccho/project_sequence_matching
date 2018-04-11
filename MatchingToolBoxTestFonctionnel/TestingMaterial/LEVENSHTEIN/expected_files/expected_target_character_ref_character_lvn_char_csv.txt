@@ -1,6 +1,0 @@
-Result
-Distance=5
-Correspondance
-chiens
-+o=ooo
- niche
