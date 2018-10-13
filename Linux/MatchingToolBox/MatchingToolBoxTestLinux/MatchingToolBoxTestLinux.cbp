@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="MatchingToolBoxTestLinux" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/MatchingToolBoxTestLinux" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/MatchingToolBoxTestLinux" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-std=c++11" />
+			<Add option="-fopenmp" />
+			<Add option="-fexceptions" />
+			<Add option="-luuid" />
+			<Add option="-pthread" />
+			<Add directory="../../../VS2015/MatchingToolBox/MatchingLibrary" />
+			<Add directory="../../gtest_linux/include" />
+		</Compiler>
+		<Linker>
+			<Add option="-lgtest" />
+			<Add option="-pthread" />
+			<Add library="../../../../../../../../../../../../../usr/lib/x86_64-linux-gnu/libuuid.a" />
+			<Add library="../../../../../../../../../../../../../usr/lib/x86_64-linux-gnu/libuuid.so" />
+			<Add library="../../../../../../../../usr/lib/gcc/x86_64-linux-gnu/5/libgomp.so" />
+			<Add directory="../../gtest_linux/libs" />
+		</Linker>
+		<Unit filename="../../../VS2015/MatchingToolBox/MatchingLibrary/CDPCorrespondence.cpp" />
+		<Unit filename="../../../VS2015/MatchingToolBox/MatchingLibrary/CDPCorrespondence.h" />
+		<Unit filename="../../../VS2015/MatchingToolBox/MatchingLibrary/CSVParser.cpp" />
+		<Unit filename="../../../VS2015/MatchingToolBox/MatchingLibrary/CSVParser.h" />
+		<Unit filename="../../../VS2015/MatchingToolBox/MatchingLibrary/Character.cpp" />
+		<Unit filename="../../../VS2015/MatchingToolBox/MatchingLibrary/Character.h" />
+		<Unit filename="../../../VS2015/MatchingToolBox/MatchingLibrary/CharacteristicVector.cpp" />
+		<Unit filename="../../../VS2015/MatchingToolBox/MatchingLibrary/CharacteristicVector.h" />
+		<Unit filename="../../../VS2015/MatchingToolBox/MatchingLibrary/Command.h" />
+		<Unit filename="../../../VS2015/MatchingToolBox/MatchingLibrary/CommandLine.cpp" />
+		<Unit filename="../../../VS2015/MatchingToolBox/MatchingLibrary/CommandLine.h" />
+		<Unit filename="../../../VS2015/MatchingToolBox/MatchingLibrary/CommandLineApplication.cpp" />
+		<Unit filename="../../../VS2015/MatchingToolBox/MatchingLibrary/CommandLineApplication.h" />
+		<Unit filename="../../../VS2015/MatchingToolBox/MatchingLibrary/Correspondence.cpp" />
+		<Unit filename="../../../VS2015/MatchingToolBox/MatchingLibrary/Correspondence.h" />
+		<Unit filename="../../../VS2015/MatchingToolBox/MatchingLibrary/CorrespondenceTools.h" />
+		<Unit filename="../../../VS2015/MatchingToolBox/MatchingLibrary/DTWCorrespondence.cpp" />
+		<Unit filename="../../../VS2015/MatchingToolBox/MatchingLibrary/DTWCorrespondence.h" />
+		<Unit filename="../../../VS2015/MatchingToolBox/MatchingLibrary/ESCCorrespondence.cpp" />
+		<Unit filename="../../../VS2015/MatchingToolBox/MatchingLibrary/ESCCorrespondence.h" />
+		<Unit filename="../../../VS2015/MatchingToolBox/MatchingLibrary/EXTParser.cpp" />
+		<Unit filename="../../../VS2015/MatchingToolBox/MatchingLibrary/EXTParser.h" />
+		<Unit filename="../../../VS2015/MatchingToolBox/MatchingLibrary/Element.h" />
+		<Unit filename="../../../VS2015/MatchingToolBox/MatchingLibrary/FSMCorrespondance.cpp" />
+		<Unit filename="../../../VS2015/MatchingToolBox/MatchingLibrary/FSMCorrespondence.h" />
+		<Unit filename="../../../VS2015/MatchingToolBox/MatchingLibrary/InOut.h" />
+		<Unit filename="../../../VS2015/MatchingToolBox/MatchingLibrary/LCSCorrespondence.cpp" />
+		<Unit filename="../../../VS2015/MatchingToolBox/MatchingLibrary/LCSCorrespondence.h" />
+		<Unit filename="../../../VS2015/MatchingToolBox/MatchingLibrary/LevenstheinCorrespondence.cpp" />
+		<Unit filename="../../../VS2015/MatchingToolBox/MatchingLibrary/LevenstheinCorrespondence.h" />
+		<Unit filename="../../../VS2015/MatchingToolBox/MatchingLibrary/MVMCorrespondence.cpp" />
+		<Unit filename="../../../VS2015/MatchingToolBox/MatchingLibrary/MVMCorrespondence.h" />
+		<Unit filename="../../../VS2015/MatchingToolBox/MatchingLibrary/MatchingExecutor.cpp" />
+		<Unit filename="../../../VS2015/MatchingToolBox/MatchingLibrary/MatchingExecutor.h" />
+		<Unit filename="../../../VS2015/MatchingToolBox/MatchingLibrary/Model.h" />
+		<Unit filename="../../../VS2015/MatchingToolBox/MatchingLibrary/Numeric.cpp" />
+		<Unit filename="../../../VS2015/MatchingToolBox/MatchingLibrary/Numeric.h" />
+		<Unit filename="../../../VS2015/MatchingToolBox/MatchingLibrary/ParamParser.cpp" />
+		<Unit filename="../../../VS2015/MatchingToolBox/MatchingLibrary/ParamParser.h" />
+		<Unit filename="../../../VS2015/MatchingToolBox/MatchingLibrary/Parameters.cpp" />
+		<Unit filename="../../../VS2015/MatchingToolBox/MatchingLibrary/Parameters.h" />
+		<Unit filename="../../../VS2015/MatchingToolBox/MatchingLibrary/Sequence.cpp" />
+		<Unit filename="../../../VS2015/MatchingToolBox/MatchingLibrary/Sequence.h" />
+		<Unit filename="../../../VS2015/MatchingToolBox/MatchingLibrary/SequenceMatchingException.h" />
+		<Unit filename="../../../VS2015/MatchingToolBox/MatchingLibrary/SequenceParser.cpp" />
+		<Unit filename="../../../VS2015/MatchingToolBox/MatchingLibrary/SequenceParser.h" />
+		<Unit filename="../../../VS2015/MatchingToolBox/MatchingLibrary/Support.h" />
+		<Unit filename="../../../VS2015/MatchingToolBox/MatchingLibrary/XMLParser.cpp" />
+		<Unit filename="../../../VS2015/MatchingToolBox/MatchingLibrary/XMLParser.h" />
+		<Unit filename="../../../VS2015/MatchingToolBox/MatchingLibrary/rapidxml-1.13/rapidxml.hpp" />
+		<Unit filename="../../../VS2015/MatchingToolBox/MatchingLibrary/rapidxml-1.13/rapidxml_iterators.hpp" />
+		<Unit filename="../../../VS2015/MatchingToolBox/MatchingLibrary/rapidxml-1.13/rapidxml_print.hpp" />
+		<Unit filename="../../../VS2015/MatchingToolBox/MatchingLibrary/rapidxml-1.13/rapidxml_utils.hpp" />
+		<Unit filename="../../../VS2015/MatchingToolBox/MatchingLibrary/regex-2.7-lib/include/regex.h" />
+		<Unit filename="../../../VS2015/MatchingToolBox/MatchingToolBoxTest/CSVParserTest.cpp" />
+		<Unit filename="../../../VS2015/MatchingToolBox/MatchingToolBoxTest/CharacterTest.cpp" />
+		<Unit filename="../../../VS2015/MatchingToolBox/MatchingToolBoxTest/CharacteristicVectorTest.cpp" />
+		<Unit filename="../../../VS2015/MatchingToolBox/MatchingToolBoxTest/GtestEnvironment.cpp" />
+		<Unit filename="../../../VS2015/MatchingToolBox/MatchingToolBoxTest/GtestEnvironment.h" />
+		<Unit filename="../../../VS2015/MatchingToolBox/MatchingToolBoxTest/MatchingExecutionTest.cpp" />
+		<Unit filename="../../../VS2015/MatchingToolBox/MatchingToolBoxTest/NumericTest.cpp" />
+		<Unit filename="../../../VS2015/MatchingToolBox/MatchingToolBoxTest/ParamParserTest.cpp" />
+		<Unit filename="../../../VS2015/MatchingToolBox/MatchingToolBoxTest/ParametersTest.cpp" />
+		<Unit filename="../../../VS2015/MatchingToolBox/MatchingToolBoxTest/SequenceTest.cpp" />
+		<Unit filename="../../../VS2015/MatchingToolBox/MatchingToolBoxTest/XMLParserTest.cpp" />
+		<Unit filename="../../../VS2015/MatchingToolBox/MatchingToolBoxTest/main.cpp" />
+		<Extensions>
+			<envvars />
+			<code_completion />
+			<lib_finder disable_auto="1" />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
